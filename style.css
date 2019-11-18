@@ -1,1 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 10px grey;
+  background-color: #DDADD0;
+}
 
+.logo {
+  text-decoration: none;
+}
+
+.logo > img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+}
+
+.link {
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  background-color: #61E8D6;
+  color: #241605;
+  font-size: 24px;
+  font-family:'Dancing Script', cursive;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background-color: #9EFFCC;
+}
