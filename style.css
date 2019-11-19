@@ -1,6 +1,10 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
   align-items: center;
   box-shadow: 0px 2px 10px grey;
   background-color: #DDADD0;
@@ -29,4 +33,54 @@
 
 .link:hover {
   background-color: #9EFFCC;
+  text-decoration: none;
 }
+
+.banner {
+  background-image: url(images/photos-boutique/devanture.jpg);
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.bannerproducts {
+  background-image: url(images/photos-boutique/vitrine.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  font-family:'Dancing Script', cursive; 
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: right;
+  padding: 20vh;
+}
+
+h2 {
+  font-family:'Dancing Script', cursive; 
+  color: #241605;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20vh;
+}
+
+.img-carousel {
+ max-height:450px;
+ max-width:auto;
+ object-fit: contain;
+}
+
+.img-height {
+  height: 30vh; 
+}
+
+.img-fit {
+  object-fit: contain;
+}
+
