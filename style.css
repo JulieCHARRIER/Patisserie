@@ -1,44 +1,10 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  z-index: 3;
-  width: 100%;
-  align-items: center;
-  box-shadow: 0px 2px 10px grey;
-  background-color: #DDADD0;
-}
-
-.logo {
-  text-decoration: none;
-}
-
-.logo > img {
-  height: 70px;
-  width: 70px;
-  object-fit: cover;
-}
-
-.link {
-  text-decoration: none;
-  margin: 20px;
-  padding: 10px;
-  background-color: #61E8D6;
-  color: #241605;
-  font-size: 24px;
-  font-family:'Dancing Script', cursive;
-  border-radius: 4px;
-}
-
-.link:hover {
-  background-color: #9EFFCC;
-  text-decoration: none;
-}
+@import'css/navbar.css';
+@import'css/carousel.css';
 
 .banner {
   background-image: url(images/photos-boutique/devanture.jpg);
   height: 60vh;
+  width: 100%;
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -47,7 +13,7 @@
 
 h1 {
   font-family:'Dancing Script', cursive; 
-  color: white;
+  color: #f2ecc4;
   font-size: 80px;
   font-weight: bold;
   text-align: right;
@@ -59,29 +25,16 @@ h1 {
   background-position: center;
   background-size: cover;
   text-align: center;
+  width: 100%;
 }
 
 h2 {
   font-family:'Dancing Script', cursive; 
-  color: #241605;
+  color: #f2ecc4;
   font-size: 60px;
   font-weight: bold;
   text-align: left;
   padding: 20vh;
-}
-
-.img-carousel {
- max-height:450px;
- max-width:auto;
- object-fit: contain;
-}
-
-.img-height {
-  height: 30vh; 
-}
-
-.img-fit {
-  object-fit: contain;
 }
 
 .banneractu {
@@ -90,10 +43,11 @@ h2 {
   background-size: cover;
   text-align: center;
   margin-top: 6px;
+  width: 100%;
 }
 
 .banneractu > h2 {
-  color: white;
+  color: #f2ecc4;
   text-align: right;
 }
 
@@ -102,8 +56,13 @@ h2 {
   background-position: center;
   background-size: cover;
   text-align: center;
+  width: 100%;
 }
 
 .bannerinfo > h2 {
-  color: white;
+  color: #f2ecc4;
+}
+
+.map-flex {
+  display: flex;
 }
