@@ -1,0 +1,11 @@
+.footpage {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #f2ecc4;
+}
+
+.icon-social {
+	display: flex;
+	align-items: center;
+}
