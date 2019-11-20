@@ -1,5 +1,6 @@
 @import'css/navbar.css';
 @import'css/carousel.css';
+@import'css/footbar.css';
 
 .banner {
   background-image: url(images/photos-boutique/devanture.jpg);
@@ -63,6 +64,3 @@ h2 {
   color: #f2ecc4;
 }
 
-.map-flex {
-  display: flex;
-}
