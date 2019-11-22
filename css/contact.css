@@ -1,0 +1,24 @@
+.map-container-5 iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.flex-map {
+	display : flex;
+	justify-content: space-around;
+	align-content: center;
+	margin: 20px;
+	padding: 15px;
+	font-size: 20px;
+	font-family: 'Dancing Script',Arial,sans-serif;
+	border-radius: 4px;
+	background-color: #61E8D6;
+	flex-direction : row-reverse;
+}
+
+.partners {
+	color: black;
+}
