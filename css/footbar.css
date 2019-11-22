@@ -1,0 +1,27 @@
+.footpage {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #f2ecc4;
+}
+
+.icon-social {
+	display: flex;
+	align-items: center;
+}
+
+#mc_embed_signup {
+	background: #fff;
+	clear: left;
+	font: 24px 'Dancing Script',Arial,sans-serif;
+	width: 100%;
+	color: #f2ecc4;
+}
+
+.newsletter {
+	display: flex;
+	background-color: #ddadd0;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 24px;
+}
