@@ -66,3 +66,8 @@
   color: #f2ecc4;
 }
 
+.video-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
